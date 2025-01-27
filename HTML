@@ -1,0 +1,10 @@
+function circleArea(radius) {
+  if (radius <= 0) {
+    return "Радиус должен быть положительным числом";
+  }
+  const pi = Math.PI; 
+  return pi * radius ** 2; 
+}
+
+console.log(circleArea(5));
+console.log(circleArea(-2));
